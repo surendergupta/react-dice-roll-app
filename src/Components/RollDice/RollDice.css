@@ -1,0 +1,136 @@
+.roll-dice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+}
+
+.roll-dice__container
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+button {
+    width: 15em;
+    padding: 1.5em;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    margin-top: 3em;
+    align-self: center;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(34, 33, 33);
+
+}
+
+.RollDice-rolling {
+    border: 0px;
+    border-radius: 10px;
+    background-color: darkslateblue !important;
+    opacity: 0.7
+}
+
+.roll-total {
+  font-size: 1.5em;
+  margin-top: 1em;
+  color: darkslateblue;
+}
+
+.roll-history {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.roll-history ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.roll-history li {
+  margin: 0.3em 0;
+}
+
+.scoreboard {
+  margin-top: 1em;
+  font-size: 1.2em;
+}
+
+.reset-btn {
+  margin-top: 1.5em;
+  background-color: #444;
+  color: white;
+  padding: 1em;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.reset-btn:hover {
+  background-color: #222;
+}
+
+.roll-dice.light {
+  color: #222;
+}
+
+.roll-dice.dark {
+  background-color: #121212;
+  color: #eee;
+}
+
+.theme-toggle {
+  margin-bottom: 1.5em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  background-color: #555;
+  color: white;
+  font-weight: bold;
+}
+
+.theme-toggle:hover {
+  background-color: #333;
+}
+
+.auto-roll-toggle {
+  margin-top: 1em;
+  padding: 0.75em 1em;
+  border-radius: 8px;
+  background-color: darkslateblue;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.auto-roll-toggle:hover {
+  background-color: slateblue;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  margin-top: 1em;
+
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+  font-weight: bold;
+}

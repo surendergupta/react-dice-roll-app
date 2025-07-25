@@ -1,0 +1,4 @@
+npm i @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+
+/*For celebration*/
+npm i canvas-confetti
