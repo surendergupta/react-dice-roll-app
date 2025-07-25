@@ -20,7 +20,7 @@ A fun, interactive dice rolling game built with **React**, featuring:
 
 ## 📸 Preview
 
-![Dice Roll Preview](/screenshot.png) 
+![Dice Roll Preview](./public/screenshot.png) 
 
 ---
 
