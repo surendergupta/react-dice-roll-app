@@ -12,6 +12,12 @@ A fun, interactive dice rolling game built with **React**, featuring:
 
 ---
 
+## 🌐 Live Demo
+
+👉 [Click to Play the Dice Game](https://react-dice-roll-app.vercel.app/)
+
+---
+
 ## 📸 Preview
 
 ![Dice Roll Preview](/screenshot.png) 
